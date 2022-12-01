@@ -24,10 +24,33 @@ body {
     color: #555;
 }
 
-/*Hero Section*/
+/************************************************/
+/*Header Section Start Here*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.logo{
+    height: 2.2rem;
+}
+
+
+
+/************************************************/
+/*Header Section End Here*/
+
+
+/************************************************/
+/*Hero Section Start Here*/
 .section-hero {
     background-color: #fdf2e9;
-    padding: 9.6rem 0;
+    padding:4.8rem 0 9.6rem 0;
 }
 
 
@@ -116,7 +139,7 @@ body {
     border: 3px solid #fdf2e9;
 }
 
-.delivered-imgs img:last-child{
+.delivered-imgs img:last-child {
     margin: 0;
 }
 
@@ -125,7 +148,10 @@ body {
     font-weight: 600;
 }
 
-.delivered-text span{
+.delivered-text span {
     color: #cf711f;
     font-weight: 700;
 }
+
+/*Hero Section End Here*/
+/************************************************/

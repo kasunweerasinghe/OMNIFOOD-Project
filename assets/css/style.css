@@ -342,6 +342,32 @@ body {
 
 .section-meals {
     padding: 9.6rem 0;
+
+}
+
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.meal-content{
+    padding:3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags{
+    margin-bottom: 1.2rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
 }
 
 .meal-title {
@@ -360,7 +386,11 @@ body {
 
 .meal-attribute {
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
 }
+
 
 .meal-icon {
     height: 2.4rem;
@@ -370,6 +400,10 @@ body {
 
 .meal-img {
     width: 100%;
+}
+
+strong {
+    font-weight: 500;
 }
 
 /*Meals Section End Here*/

@@ -68,11 +68,10 @@ body {
     background-color: #e67e22;
 }
 
-.main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active{
+.main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active {
     background-color: #cf711f;
 
 }
-
 
 /************************************************/
 /*Header Section End Here*/

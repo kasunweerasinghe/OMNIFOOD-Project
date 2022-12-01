@@ -252,11 +252,11 @@ body {
 /*featured Section Start Here*/
 /************************************************/
 
-.section-featured{
+.section-featured {
     padding: 4.8rem 0 3.2rem 0;
 }
 
-.heading-featured-in{
+.heading-featured-in {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 0.75px;
@@ -266,12 +266,12 @@ body {
     color: #888;
 }
 
-.logos{
+.logos {
     display: flex;
     justify-content: space-between;
 }
 
-.logos img{
+.logos img {
     height: 3.2rem;
     filter: brightness(0);
     opacity: 50%;
@@ -340,29 +340,35 @@ body {
 /*Meals Section Start Here*/
 /************************************************/
 
-.section-meals{
+.section-meals {
     padding: 9.6rem 0;
 }
 
-.meal-title{
+.meal-title {
     font-size: 2.4rem;
     color: #333;
     font-weight: 600;
     margin-bottom: 3.2rem;
 }
 
-.meal-attributes{
+.meal-attributes {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.meal-attribute{
+.meal-attribute {
     font-size: 1.8rem;
 }
 
-.meal-img{
+.meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+}
+
+.meal-img {
     width: 100%;
 }
 

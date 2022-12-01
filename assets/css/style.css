@@ -357,6 +357,8 @@ body {
 
 .meal-tags{
     margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
 }
 
 .tag {
@@ -364,10 +366,21 @@ body {
     padding: 0.4rem 0.8rem;
     font-size: 1.2rem;
     text-transform: uppercase;
-    background-color: #51cf66;
     color: #333;
     border-radius: 100px;
     font-weight: 600;
+}
+
+.tag--Vegetarian{
+    background-color: #51cf66;
+}
+
+.tag--Vegan{
+    background-color: #94d82d;
+}
+
+.tag--Paleo{
+    background-color: #ffd43b;
 }
 
 .meal-title {

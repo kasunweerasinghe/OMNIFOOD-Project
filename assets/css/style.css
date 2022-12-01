@@ -30,6 +30,22 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.heading-primary{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
 }
 
 .hero-img {

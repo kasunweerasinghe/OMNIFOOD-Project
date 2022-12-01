@@ -217,6 +217,10 @@ body {
     margin-bottom: 4.8rem !important;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .delivered-meals {
     display: flex;
     align-items: center;
@@ -354,6 +358,11 @@ body {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
     overflow: hidden;
+    transition: all 0.4s;
+}
+
+.meal:hover {
+    transform: translateY(-1.2rem);
 }
 
 .meal-content {
@@ -424,15 +433,23 @@ strong {
     font-weight: 500;
 }
 
-.all-recipes{
+.all-recipes {
     text-align: center;
     font-size: 1.8rem;
 }
 
-.link:link, .link:visited{
+.link:link, .link:visited {
+    display: inline-block;
     color: #e67e22;
     text-decoration: none;
-    border-bottom: 1px solid  currentColor;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 0.2rem;
+    transition: all 0.3s;
+}
+
+.link:hover, .link:active {
+    color: #cf711f;
+    border-bottom: 1px solid transparent;
 }
 
 .list {

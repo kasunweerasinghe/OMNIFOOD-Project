@@ -13,7 +13,7 @@ created by kasunrachintha on 12/1/22
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
@@ -24,3 +24,14 @@ body {
     color: #555;
 }
 
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+    width: 100%;
+}

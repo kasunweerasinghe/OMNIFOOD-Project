@@ -6,9 +6,6 @@ created by kasunrachintha on 12/1/22
 @Project : OMNIFOOD Project 
 */
 
-/*
-
-*/
 
 * {
     padding: 0;
@@ -16,9 +13,14 @@ created by kasunrachintha on 12/1/22
     box-sizing: border-box;
 }
 
-body{
+html{
+    font-size: 62.5%;
+}
+
+body {
     font-family: sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
 }
+

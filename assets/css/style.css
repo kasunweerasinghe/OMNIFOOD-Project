@@ -24,7 +24,7 @@ body {
     color: #555;
 }
 
-.section-hero{
+.section-hero {
     background-color: #fdf2e9;
     padding: 9.6rem 0;
 }
@@ -40,7 +40,7 @@ body {
 
 }
 
-.heading-primary{
+.heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
     line-height: 1.05;
@@ -49,10 +49,19 @@ body {
     margin-bottom: 3.2rem;
 }
 
-.hero-description{
+.hero-description {
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
+}
+
+.btn:link, .btn:visited {
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 .hero-img {

@@ -625,10 +625,12 @@ strong {
 /*feature section under pricing*/
 .feature-icon {
     color: #e67e22;
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
     margin-bottom: 3.2rem;
-
+    padding: 1.6rem;
+    border-radius: 60%;
 }
 
 .feature-text {

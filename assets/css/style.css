@@ -483,6 +483,11 @@ strong {
 
 .section-testimonial{
     padding: 9.6rem 0;
+    background-color: #fdf2e9;
+}
+
+.testimonials-container{
+    padding: 9.6rem;
 }
 
 .testimonials{
@@ -508,6 +513,17 @@ strong {
     color: #777;
 }
 
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.gallery-item img{
+    display: block;
+    width: 100%;
+}
 
 
 /*Testimonial Section End Here*/

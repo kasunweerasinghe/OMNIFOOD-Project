@@ -623,6 +623,26 @@ strong {
 }
 
 /*feature section under pricing*/
+.feature-icon {
+    color: #e67e22;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-bottom: 3.2rem;
+
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
 
 /*Pricing Section End Here*/
 /************************************************/

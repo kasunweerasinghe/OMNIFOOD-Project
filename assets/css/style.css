@@ -125,6 +125,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center--v {
     align-items: center;
 }
@@ -754,9 +758,19 @@ strong {
     box-shadow: inset 0 0 0 0.8rem #e67e22;
 }
 
-
 /*Cta Section End Here*/
 /************************************************/
+
+/*Footer Section Start Here*/
+/************************************************/
+
+.footer {
+    padding: 9.6rem 0;
+}
+
+/*Footer Section End Here*/
+/************************************************/
+
 
 
 

@@ -173,7 +173,7 @@ body {
     margin-bottom: 4.8rem;
 }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
     display: inline-block;
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
@@ -183,6 +183,10 @@ body {
 
     /*transition: background-color 0.3s;*/
     transition: all 0.3s;
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn--full:link, .btn--full:visited {
@@ -669,7 +673,7 @@ strong {
     border-radius: 11px;
 
     background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-    height: 50rem;
+    /*height: 50rem;*/
     overflow: hidden;
 }
 
@@ -695,12 +699,61 @@ strong {
     background-position: center;
 }
 
-.cta-form{
+.cta-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
 }
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.cta-form input, .cta-form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form in::placeholder {
+    color: #aaa;
+}
+
+.btn--form{
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover{
+    background-color: #fff;
+    color: #555;
+}
+
+*:focus{
+    outline: none;
+    /*outline: 4px dotted#e67e22;*/
+    /*outline-offset: 8px;*/
+    box-shadow: inset 0 0 0 0.8rem #e67e22;
+}
+
+
+.cta *:focus{
+    outline: none;
+    box-shadow: inset 0 0 0 0.8rem #e67e22;
+}
+
 
 /*Cta Section End Here*/
 /************************************************/

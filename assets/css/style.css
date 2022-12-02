@@ -481,7 +481,9 @@ strong {
 /*Testimonial Section Start Here*/
 /************************************************/
 
-
+.section-testimonial{
+    padding: 9.6rem 0;
+}
 
 /*Testimonial Section End Here*/
 /************************************************/

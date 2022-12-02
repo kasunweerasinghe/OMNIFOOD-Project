@@ -587,6 +587,16 @@ strong {
     margin-top: 4.8rem;
 }
 
+.pricing-plan{
+    background-color: #fdf2e9;
+    border: 11px;
+    padding: 4.8rem;
+}
+
+.pricing-plan--starter{
+    justify-self: center;
+}
+
 /*Pricing Section End Here*/
 /************************************************/
 

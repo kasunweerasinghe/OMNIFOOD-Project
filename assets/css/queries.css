@@ -64,7 +64,11 @@ created by kasunrachintha on 12/6/22
 }
 
 /*Below 944PX(Tablets)  (59*16=944)*/
-@media (max-width: 59em){
+@media (max-width: 59em) {
+
+    html {
+        font-size: 50%;
+    }
 
 }
 

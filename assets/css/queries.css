@@ -179,7 +179,7 @@ created by kasunrachintha on 12/6/22
 }
 
 
-/*Below 704(Smaller Tablets)  (44*16=704)*/
+/*Below 704PX(Smaller Tablets)  (44*16=704)*/
 @media (max-width: 44em) {
 
     .grid--3-cols, .grid--4-cols {
@@ -213,5 +213,11 @@ created by kasunrachintha on 12/6/22
         margin-bottom: 3.2rem;
     }
 
+
+}
+
+
+/*Below 544PX(Phones)  (34*16=544)*/
+@media (max-width: 34em){
 
 }

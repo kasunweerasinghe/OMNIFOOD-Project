@@ -84,7 +84,6 @@ body {
     padding: 4.8rem 0 9.6rem 0;
 }
 
-
 .hero {
     max-width: 130rem;
     margin: 0 auto;
@@ -668,7 +667,7 @@ strong {
 .section-cta {
     /*padding: 9.6rem 0 12.8rem 0;*/
 
-    padding: 4.8rem 0 12.8rem ;
+    padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -735,19 +734,19 @@ strong {
     color: #aaa;
 }
 
-.btn--form{
+.btn--form {
     background-color: #45260a;
     color: #fdf2e9;
     align-self: end;
     padding: 1.2rem;
 }
 
-.btn--form:hover{
+.btn--form:hover {
     background-color: #fff;
     color: #555;
 }
 
-*:focus{
+*:focus {
     outline: none;
     /*outline: 4px dotted#e67e22;*/
     /*outline-offset: 8px;*/
@@ -755,7 +754,7 @@ strong {
 }
 
 
-.cta *:focus{
+.cta *:focus {
     outline: none;
     box-shadow: inset 0 0 0 0.8rem #e67e22;
 }
@@ -771,74 +770,73 @@ strong {
     border-top: 1px solid #ddd;
 }
 
-.grid-footer{
+.grid-footer {
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
-.logo-col{
+.logo-col {
     display: flex;
     flex-direction: column;
 
 }
 
-.footer-logo{
+.footer-logo {
     display: block;
     margin-bottom: 3.2rem;
 
 }
 
-.social-links{
+.social-links {
     list-style: none;
     display: flex;
     gap: 2.4rem;
 }
 
-.social-icon{
+.social-icon {
     height: 2.4rem;
     width: 2.4rem;
 }
 
-.copyright{
+.copyright {
     font-size: 1.4rem;
     color: #767676;
     line-height: 1.6;
     margin-top: auto;
 }
 
-.footer-heading{
+.footer-heading {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 4rem;
 }
 
-.contacts{
+.contacts {
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.6;
 }
 
-.address{
+.address {
     margin-bottom: 2.4rem;
 }
 
-.footer-nav{
+.footer-nav {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
 }
 
-.footer-link:link, .footer-link:visited{
+.footer-link:link, .footer-link:visited {
     text-decoration: none;
     font-size: 1.6rem;
     color: #767676;
     transition: all 0.3s;
 }
 
-.footer-link:hover, .footer-link:active{
+.footer-link:hover, .footer-link:active {
     color: #555;
 }
-
 
 
 /*Footer Section End Here*/

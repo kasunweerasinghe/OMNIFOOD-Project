@@ -6,13 +6,13 @@ created by kasunrachintha on 12/6/22
 @Project : OMNIFOOD Project 
 */
 
-/*1344PX(Smaller desktop)*/
+/*Below 1344PX(Smaller desktop)  (84*16=1344)*/
 @media (max-width: 84em) {
-    .hero{
+    .hero {
         max-width: 120rem;
     }
 
-    .heading-primary{
+    .heading-primary {
         font-size: 4.4rem;
     }
 
@@ -21,6 +21,10 @@ created by kasunrachintha on 12/6/22
         grid-template-columns: repeat(2, 1fr);
 
     }
+}
+
+/*Below 1200(landscape tablet)  (75*16=1200)*/
+@media (max-width: 75rem) {
 
 
 }

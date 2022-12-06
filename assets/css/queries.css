@@ -109,5 +109,14 @@ created by kasunrachintha on 12/6/22
     .gallery {
         grid-template-columns: repeat(6, 1fr);
     }
+
+    .cta{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+
 }
 

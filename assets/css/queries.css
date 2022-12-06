@@ -118,5 +118,9 @@ created by kasunrachintha on 12/6/22
         grid-template-columns: 1fr;
     }
 
+    .btn--form{
+        margin-top: 1.2rem;
+    }
+
 }
 

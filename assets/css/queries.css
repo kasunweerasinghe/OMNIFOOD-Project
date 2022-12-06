@@ -63,6 +63,7 @@ created by kasunrachintha on 12/6/22
 
 }
 
+
 /*Below 944PX(Tablets)  (59*16=944)*/
 @media (max-width: 59em) {
 
@@ -177,3 +178,8 @@ created by kasunrachintha on 12/6/22
 
 }
 
+
+/*Below 704(Smaller Tablets)  (44*16=704)*/
+@media (max-width: 44em) {
+
+}

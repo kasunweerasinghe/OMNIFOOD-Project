@@ -23,14 +23,15 @@ created by kasunrachintha on 12/6/22
     }
 }
 
-/*Below 1200(landscape tablet)  (75*16=1200)*/
+
+/*Below 1200PX(landscape tablets)  (75*16=1200)*/
 @media (max-width: 75rem) {
     html {
         /*56.25% = 9px*/
         font-size: 56.25%;
     }
 
-    .grid{
+    .grid {
         column-gap: 4.8rem;
         row-gap: 6.4rem;
     }
@@ -43,18 +44,27 @@ created by kasunrachintha on 12/6/22
         font-size: 2.4rem;
     }
 
-    .header{
+    .header {
         padding: 0 3.2rem;
     }
 
-    .main-nav-list{
+    .main-nav-list {
         gap: 3.2rem;
     }
 
-    .hero{
+    .hero {
         gap: 4.8rem;
     }
 
+    .testimonials-container {
+        padding: 9.6rem 3.2rem;
+    }
+
+
+}
+
+/*Below 944PX(Tablets)  (59*16=944)*/
+@media (max-width: 59em){
 
 }
 

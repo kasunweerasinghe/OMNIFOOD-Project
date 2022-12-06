@@ -15,6 +15,7 @@ created by kasunrachintha on 12/1/22
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
 /************************************************/
@@ -71,6 +73,26 @@ body {
 .main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active {
     background-color: #cf711f;
 
+}
+
+/*mobile menu */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+
+}
+
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
 }
 
 /************************************************/
@@ -383,8 +405,9 @@ body {
     margin-bottom: 1.2rem;
     display: flex;
     gap: 0.4rem;
-}.
+}
 
+.
 .tag {
     display: inline-block;
     padding: 0.4rem 0.8rem;
